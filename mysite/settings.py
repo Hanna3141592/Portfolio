@@ -122,12 +122,12 @@ STATIC_URL = "/static/"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-EMAIL_HOST = "smtp.ionos.de"
+EMAIL_HOST = "smtp.mail.de"
 EMAIL_PORT = 587
-EMAIL_HOST_USER="info@zehan.de"
-EMAIL_HOST_PASSWORD = "Elli-2015"
+EMAIL_HOST_USER="hanna-z@mail.de"
+EMAIL_HOST_PASSWORD = "Blutwurst-1"
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-DEFAULT_FROM_EMAIL = "info@zehan.de"
+DEFAULT_FROM_EMAIL = "hanna-z@mail.de"
 NOTIFY_EMAIL = "Hanna.Zehnter@zehan.de"
 EMAIL_USE_TLS = True
 
